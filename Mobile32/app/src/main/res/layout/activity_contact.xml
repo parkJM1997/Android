@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/customborder">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이       름 : "
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/takename1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="저장 기록이 없습니다."
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="전화번호 : "
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/takenumber1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="저장 기록이 없습니다."
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right">
+
+            <Button
+                android:id="@+id/contact1"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_gravity="right"
+                android:layout_marginLeft="5dp"
+                android:text="지정" android:textSize="20dp"
+                android:textColor="#000000" android:background="@drawable/seat_button"
+            />
+
+            <Button
+                android:id="@+id/delete1"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_gravity="right"
+                android:layout_marginLeft="5dp"
+                android:text="삭제" android:textSize="20dp"
+                android:textColor="#000000" android:background="@drawable/seat_button"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/customborder">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이       름 : "
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/takename2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="저장 기록이 없습니다."
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="전화번호 : "
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/takenumber2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="저장 기록이 없습니다."
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right">
+
+            <Button
+                android:id="@+id/contact2"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_gravity="right"
+                android:layout_marginLeft="5dp"
+                android:text="지정" android:textSize="20dp"
+                android:textColor="#000000" android:background="@drawable/seat_button"
+                />
+
+            <Button
+                android:id="@+id/delete2"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_gravity="right"
+                android:layout_marginLeft="5dp"
+                android:text="삭제" android:textSize="20dp"
+                android:textColor="#000000" android:background="@drawable/seat_button"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/customborder">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이       름 : "
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/takename3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="저장 기록이 없습니다."
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="전화번호 : "
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/takenumber3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="저장 기록이 없습니다."
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right">
+
+            <Button
+                android:id="@+id/contact3"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_gravity="right"
+                android:layout_marginLeft="5dp"
+                android:text="지정" android:textSize="20dp"
+                android:textColor="#000000" android:background="@drawable/seat_button"
+                />
+
+            <Button
+                android:id="@+id/delete3"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_gravity="right"
+                android:layout_marginLeft="5dp"
+                android:text="삭제" android:textSize="20dp"
+                android:textColor="#000000" android:background="@drawable/seat_button"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"/>
+
+        <Button
+            android:id="@+id/check"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/seat_button"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="뒤로가기"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
